@@ -31,15 +31,15 @@ export const BudgetsProvider = ({ children }) => {
     });
   }
 
-  function deleteBudget({ id }) {
-    setBudgets((prevBudgets) => {
-      return prevBudgets.filter((budget) => budget.id !== id);
-    });
+  function deleteBudget({id}) {
+      setBudgets(prevBudgets => {
+        return prevBudgets.filter(budget => budget.id !== id)
+      });
   }
 
-  function deleteExpense({ id }) {
-    setExpense((prevExpense) => {
-      return prevExpense.filter((expense) => expense.id !== id);
+  function deleteExpense({id}) {
+    setExpense(prevExpense => {
+      return prevExpense.filter(expense => expense.id !== id)
     });
   }
 
