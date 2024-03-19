@@ -32,9 +32,9 @@ const BudgetCard = ({ name, amount, max, gray }) => {
 
         <Stack direction="horizontal" gap="2" className="mt-4">
           <Button variant="outline-primary" className="ms-auto">
-            Add Expense
+            Adicionar Despesas
           </Button>
-          <Button variant="outline-secondary">View Expenses</Button>
+          <Button variant="outline-secondary">Ver Despesas</Button>
         </Stack>
       </Card.Body>
     </Card>
